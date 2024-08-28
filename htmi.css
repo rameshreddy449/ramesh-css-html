@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal Link Example</title>
+    <style>
+        /* Adding some basic styles for clarity */
+        .nav-links {
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-links">
+    <!-- Links to different sections on the page -->
+    <a href="#section1">Go to Section 1</a> |
+    <a href="#section2">Go to Section 2</a> |
+    <a href="#section3">Go to Section 3</a>
+</div>
+
+<!-- Content Sections -->
+<div class="section" id="section1">
+    <h2>Section 1</h2>
+    <p>This is the content of Section 1.</p>
+</div>
+
+<div class="section" id="section2">
+    <h2>Section 2</h2>
+    <p>This is the content of Section 2.</p>
+</div>
+
+<div class="section" id="section3">
+    <h2>Section 3</h2>
+    <p>This is the content of Section 3.</p>
+</div>
+
+</body>
+</html>
